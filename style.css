@@ -1,0 +1,33 @@
+* {
+    font-size: 25px;
+}
+
+body {
+    background-color: aqua;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 50%;
+}
+
+#titulo {
+    font-size: 30px;
+    display: none;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 50%;
+    color: white;
+    background-color: grey;
+}
+
+/* otra opcion */
+.hide{
+    display:none;
+    visibility:hidden;
+}
